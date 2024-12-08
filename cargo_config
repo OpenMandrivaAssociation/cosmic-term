@@ -24,12 +24,13 @@ replace-with = "vendored-sources"
 git = "https://github.com/pop-os/cosmic-files.git"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-text.git"]
-git = "https://github.com/pop-os/cosmic-text.git"
+[source."git+https://github.com/pop-os/cosmic-protocols?rev=d218c76"]
+git = "https://github.com/pop-os/cosmic-protocols"
+rev = "d218c76"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/fs_extra.git"]
-git = "https://github.com/pop-os/fs_extra.git"
+[source."git+https://github.com/pop-os/cosmic-text.git"]
+git = "https://github.com/pop-os/cosmic-text.git"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/glyphon.git?tag=iced-0.14-dev"]
