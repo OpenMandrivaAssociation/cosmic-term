@@ -3,12 +3,13 @@
 %define         appname com.system76.CosmicTerm
 Name:           cosmic-term
 Version:        1.0.0
-Release:        0.alpha5.1
+%define beta alpha.6
+Release:        %{?beta:0.%{beta}.}1
 Summary:        COSMIC terminal emulator
 Group:          Terminal/COSMIC
 License:        GPL-3.0-only
 URL:            https://github.com/pop-os/cosmic-term
-Source0:        https://github.com/pop-os/cosmic-term/archive/epoch-%{version}-alpha.5.1/%{name}-epoch-%{version}-alpha.5.1.tar.gz
+Source0:        https://github.com/pop-os/cosmic-term/archive/epoch-%{version}%{?beta:-%{beta}}/%{name}-epoch-%{version}%{?beta:-%{beta}}.tar.gz
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
@@ -27,7 +28,7 @@ alacritty project. cosmic-term provides bidirectional rendering and ligatures
 with a custom renderer based on cosmic-text.
 
 %prep
-%autosetup -n %{name}-epoch-%{version}-alpha.5.1 -a1 -p1
+%autosetup -n %{name}-epoch-%{version}%{?beta:-%{beta}} -a1 -p1
 mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
