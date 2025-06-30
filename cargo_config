@@ -11,6 +11,16 @@ git = "https://github.com/alacritty/alacritty"
 rev = "cacdb5bb3b72bad2c729227537979d95af75978f"
 replace-with = "vendored-sources"
 
+[source."git+https://github.com/ellieplayswow/xdg-mime-rs?branch=feature/get-same-as"]
+git = "https://github.com/ellieplayswow/xdg-mime-rs"
+branch = "feature/get-same-as"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/jackpot51/polling.git?branch=master"]
+git = "https://github.com/jackpot51/polling.git"
+branch = "master"
+replace-with = "vendored-sources"
+
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
 git = "https://github.com/jackpot51/rust-atomicwrites"
 replace-with = "vendored-sources"
