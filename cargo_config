@@ -11,14 +11,12 @@ git = "https://github.com/alacritty/alacritty"
 rev = "cacdb5bb3b72bad2c729227537979d95af75978f"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/ellieplayswow/xdg-mime-rs?branch=feature/get-same-as"]
-git = "https://github.com/ellieplayswow/xdg-mime-rs"
-branch = "feature/get-same-as"
+[source."git+https://github.com/ebassi/xdg-mime-rs"]
+git = "https://github.com/ebassi/xdg-mime-rs"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/jackpot51/polling.git?branch=master"]
-git = "https://github.com/jackpot51/polling.git"
-branch = "master"
+[source."git+https://github.com/evenorog/license.git"]
+git = "https://github.com/evenorog/license.git"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
@@ -34,13 +32,17 @@ replace-with = "vendored-sources"
 git = "https://github.com/pop-os/cosmic-files.git"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-protocols?rev=178eb0b"]
+[source."git+https://github.com/pop-os/cosmic-protocols?rev=6254f50"]
 git = "https://github.com/pop-os/cosmic-protocols"
-rev = "178eb0b"
+rev = "6254f50"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/cosmic-text.git"]
 git = "https://github.com/pop-os/cosmic-text.git"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/dbus-settings-bindings"]
+git = "https://github.com/pop-os/dbus-settings-bindings"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/freedesktop-icons"]
@@ -54,6 +56,10 @@ replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/libcosmic.git"]
 git = "https://github.com/pop-os/libcosmic.git"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/recently-used-xbel.git"]
+git = "https://github.com/pop-os/recently-used-xbel.git"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/smithay-clipboard?tag=pop-dnd-5"]
