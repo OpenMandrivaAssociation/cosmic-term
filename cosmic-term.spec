@@ -3,7 +3,7 @@
 %define         appname com.system76.CosmicTerm
 Name:           cosmic-term
 Version:        1.0.0
-%define beta alpha.7
+%define beta beta.1
 Release:        %{?beta:0.%{beta}.}1
 Summary:        COSMIC terminal emulator
 Group:          Terminal/COSMIC
